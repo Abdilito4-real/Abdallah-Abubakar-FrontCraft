@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCraft - Backend Development Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="theme-color" content="#0a0a23">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+
+    <canvas class="particles"></canvas>
+
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">FrontCraft</h1>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="profile-container">
+                <img src="./dilito2.jpg" alt="Frontend Developer" class="profile-pic">
+                <div class="profile-content">
+                    <h1>Crafting Digital Experiences</h1>
+                    <p class="subtitle">Specialist UI Developer</p>
+                    <button class="neon-btn" onclick="window.location.href='#portfolio'">View Portfolio</button>
+                    <div class="skill-badges">
+                        <span class="skill-badge">Responsive Web Design</span>
+                        <span class="skill-badge">SCSS</span>
+                        <span class="skill-badge">Web Animation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tech-grid" id="skills">
+        <div class="tech-card">
+            <i class="fab fa-react fa-3x"></i>
+            <h3>JavaScript Animation</h3>
+            <p>Building interactive Web</p>
+        </div>
+        <div class="tech-card">
+            <i class="fab fa-js fa-3x"></i>
+            <h3>JavaScript (ES6+)</h3>
+            <p>Modern web functionality</p>
+        </div>
+        <div class="tech-card">
+            <i class="fab fa-sass fa-3x"></i>
+            <h3>CSS & Preprocessors</h3>
+            <p>Responsive UI design</p>
+        </div>
+    </section>
+
+    <section class="portfolio-grid" id="portfolio">
+        <div class="profile-card" >
+            <div class="profile-image">
+              <img src="./me.png" alt="Profile Image">
+            </div>
+            <div class="profile-info">
+              <h2 class="name">Abdallah Abubakar Sa'i</h2>
+              <p class="title">Frontend Developer</p>
+              <p class="description">Passionate Frontend developer with 2+ years of experience.</p>
+          </div>
+        </div>
+        <div class="cards-container">
+            <div class="solution-card">
+                <h1>Soft Skills and Collaboration</h1>
+                <ul>
+                    <li>Collaborated with cross-functional teams to deliver high-quality front-end solutions, ensuring seamless integration with backend services.</li>
+                    <li>Worked closely with designers to translate design concepts into functional and visually appealing front-end implementations.</li>
+                </ul>
+            </div>
+        
+            <div class="solution-card">
+                <h1>Problem-Solving Adaptability</h1>
+                <ul>
+                    <li>Solving complex front-end issues using debugging tools like Chrome DevTools and Firefox Developer Edition.</li>
+                    <li>Adapted to changing project requirements and adjusting the front-end architecture to meet new demands.</li>
+                </ul>
+            </div>
+        
+            <div class="solution-card">
+                <h1>Learning</h1>
+                <ul>
+                    <li>Contributed to open source front-end projects on GitHub, expanding my Knowledge of modern front-end tech.</li>
+                    <li>Participated in online communities like FreeCodeCamp and Stack Overflow, staying up-to-date with industry trends.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    
+    <section class="services-page" id="services">
+        <div class="solutions-header">
+            <h2>Development Services</h2>
+            <p>Transform your ideas into pixel-perfect reality</p>
+        </div>
+        <div class="solutions-grid">
+            <div class="solution-card11">
+                <div class="solution-icon">
+                    <i class="fas fa-mobile-alt fa-3x"></i>
+                </div>
+                <h3>Responsive Web Design</h3>
+                <ul class="solution-features">
+                    <li>Mobile-first Approach</li>
+                    <li>Cross-browser Compatibility</li>
+                    <li>Performance Optimization</li>
+                </ul>
+            </div>
+            <!-- Add more service cards -->
+        </div>
+    </section>
+
+
+
+<!-- Contact Form Section -->
+<section class="contact-section" id="contact">
+    <h2>Get in Touch</h2>
+    <form class="contact-form" action="https://formspree.io/f/myzkdlwr" method="POST">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <input type="hidden" name="_subject" value="New Portfolio Message">
+        <button type="submit" class="neon-btn">Send Message</button>
+    </form>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials-grid" id="testimonials">
+    <div class="testimonial-card animated">
+        <p>"Exceptional attention to detail and creative problem-solving skills."</p>
+        <h4>Abdallah Abubakar</h4>
+        <p>CTO, Tech Corp</p>
+    </div>
+    <!-- Add more testimonials -->
+</section>
+
+<!-- Blog Section -->
+<section class="blog-grid" id="blog">
+    <article class="blog-card animated">
+        <h3>Mastering CSS Grid</h3>
+        <p>Deep dive into modern layout techniques...</p>
+        </article>
+    <!-- Add more blog posts -->
+</section>
+
+
+
+    <footer>
+        <div class="social-links" id="contact">
+            <a href="https://wa.me/qr/BAYLSUIOXL2EH1" class="social-link" data-platform="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://t.me/abdilito4real01" class="social-link" data-platform="Telegram">
+                <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://www.instagram.com/abdilito4real?igsh=YzlijYTk1ODg3Zg" class="social-link" data-platform="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100091981188695&mibextid=rS40aB7S9Ucbxw6v" class="social-link" data-platform="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://x.com/AAbubakar24074?s=08" class="social-link" data-platform="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <p style="margin-top: 1rem;">Connect with me via social media</p>
+        <div class="social-links">
+            <a href="https://github.com/Abdilito4-real" target="_blank" class="social-link">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/abdallah-abubakar-a6b054302" target="_blank" class="social-link">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://mailto:abdallahabubakar269@gmail.com" class="social-link">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>  
+        <p style="margin-top: 1rem;">Let's create something amazing together!</p>
+      </footer>
+
+      
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
